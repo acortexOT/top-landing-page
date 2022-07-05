@@ -37,6 +37,8 @@ body{
 .footer {
     justify-content: center;
     font-size: 18px;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .blue-main {
@@ -141,4 +143,27 @@ font-size: 18px;
     font-weight: 800;
     font-style: bold;
     align-self: flex-end;
+}
+
+.bottom-main {
+    margin: 100px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-main div {
+    align-self: center;
+    flex: 3 1 auto;
+}
+
+.bottom-main button {
+    border: #e5e7eb solid 1px;
+    margin-left: 70px;
+    padding: 5px 16px;
+    align-self: center;
+    flex-shrink: 0;
 }
