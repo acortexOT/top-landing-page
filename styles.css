@@ -71,11 +71,14 @@ button {
 .top-right {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-self: center;
     background-color: grey;
     color:#f9faf8;
     align-self:stretch;
-    flex-basis: 50%;
+    flex-basis: 50;
+}
+.top-right img {
+    width: 300px;
 }
 .white-main {
     display:flex;
